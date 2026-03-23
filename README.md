@@ -1,6 +1,8 @@
 # 🗺️ CampusQuest
 
-A gamified campus exploration app built for a 48-hour hackathon demo.
+A gamified campus exploration app where users complete quests by visiting real university locations and scanning QR codes. Each completed quest rewards XP and unlocks a piece of a campus puzzle, turning campus discovery into an interactive game.
+
+Built for a 48-hour hackathon demo.
 
 ## Live Demo
 
@@ -12,6 +14,8 @@ A gamified campus exploration app built for a 48-hour hackathon demo.
 npm install
 npm run dev
 ```
+
+Requires Node.js 18+.
 
 ## Demo Instructions
 
@@ -37,7 +41,7 @@ Generate printable QR codes at https://qrcode-monkey.com
 
 ## Tech Stack
 
-- React + Vite
+- React 19 + Vite
 - html5-qrcode
 - localStorage
 - Custom CSS animations
